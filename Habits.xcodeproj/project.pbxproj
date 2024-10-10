@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4006FCE82C929D26009924E6 /* HabitListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006FCE72C929D26009924E6 /* HabitListItem.swift */; };
+		40107DDA2CB4BEDE009D7FAC /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40107DD92CB4BEDC009D7FAC /* SectionHeader.swift */; };
+		40107DDC2CB4BEF5009D7FAC /* MorningSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40107DDB2CB4BEF1009D7FAC /* MorningSectionHeader.swift */; };
+		40107DDE2CB4BF11009D7FAC /* AfternoonSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40107DDD2CB4BF11009D7FAC /* AfternoonSectionHeader.swift */; };
+		40107DE02CB4BF53009D7FAC /* EveningSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40107DDF2CB4BF53009D7FAC /* EveningSectionHeader.swift */; };
+		40107DE32CB4C49D009D7FAC /* DailyHabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40107DE22CB4C49D009D7FAC /* DailyHabitsView.swift */; };
+		40107DE52CB4C4A3009D7FAC /* MonthlyHabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40107DE42CB4C4A3009D7FAC /* MonthlyHabitsView.swift */; };
+		40107DE72CB4C4A6009D7FAC /* YearlyHabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40107DE62CB4C4A6009D7FAC /* YearlyHabitsView.swift */; };
 		404637242C8C0456008B9B8D /* HabitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404637232C8C0456008B9B8D /* HabitsApp.swift */; };
 		404637262C8C0456008B9B8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404637252C8C0456008B9B8D /* ContentView.swift */; };
 		404637282C8C0457008B9B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404637272C8C0457008B9B8D /* Assets.xcassets */; };
 		4046372B2C8C0457008B9B8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4046372A2C8C0457008B9B8D /* Preview Assets.xcassets */; };
+		406211D82C92886900C61CE6 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406211D72C92886900C61CE6 /* Habit.swift */; };
+		406211DC2C928C7700C61CE6 /* habitData.json in Resources */ = {isa = PBXBuildFile; fileRef = 406211DB2C928C7700C61CE6 /* habitData.json */; };
+		409A8EE02CB4B3F800F80554 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A8EDE2CB4B3F200F80554 /* HabitViewModel.swift */; };
+		409A8EE52CB4B66A00F80554 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A8EE42CB4B66800F80554 /* PersistenceManager.swift */; };
+		409A8EE92CB4B83200F80554 /* CompletionToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A8EE82CB4B82E00F80554 /* CompletionToggleButton.swift */; };
+		409A8EEB2CB4B84D00F80554 /* AlarmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A8EEA2CB4B84B00F80554 /* AlarmButton.swift */; };
+		409A8EED2CB4B86500F80554 /* AlarmSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A8EEC2CB4B86300F80554 /* AlarmSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4006FCE72C929D26009924E6 /* HabitListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListItem.swift; sourceTree = "<group>"; };
+		40107DD92CB4BEDC009D7FAC /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		40107DDB2CB4BEF1009D7FAC /* MorningSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningSectionHeader.swift; sourceTree = "<group>"; };
+		40107DDD2CB4BF11009D7FAC /* AfternoonSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfternoonSectionHeader.swift; sourceTree = "<group>"; };
+		40107DDF2CB4BF53009D7FAC /* EveningSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveningSectionHeader.swift; sourceTree = "<group>"; };
+		40107DE22CB4C49D009D7FAC /* DailyHabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHabitsView.swift; sourceTree = "<group>"; };
+		40107DE42CB4C4A3009D7FAC /* MonthlyHabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyHabitsView.swift; sourceTree = "<group>"; };
+		40107DE62CB4C4A6009D7FAC /* YearlyHabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearlyHabitsView.swift; sourceTree = "<group>"; };
 		404637202C8C0456008B9B8D /* Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		404637232C8C0456008B9B8D /* HabitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsApp.swift; sourceTree = "<group>"; };
 		404637252C8C0456008B9B8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		404637272C8C0457008B9B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4046372A2C8C0457008B9B8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		406211D72C92886900C61CE6 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		406211DB2C928C7700C61CE6 /* habitData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = habitData.json; sourceTree = "<group>"; };
+		409A8EDE2CB4B3F200F80554 /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
+		409A8EE42CB4B66800F80554 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		409A8EE82CB4B82E00F80554 /* CompletionToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionToggleButton.swift; sourceTree = "<group>"; };
+		409A8EEA2CB4B84B00F80554 /* AlarmButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmButton.swift; sourceTree = "<group>"; };
+		409A8EEC2CB4B86300F80554 /* AlarmSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40107DD82CB4BED3009D7FAC /* SectionHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				40107DDB2CB4BEF1009D7FAC /* MorningSectionHeader.swift */,
+				40107DDD2CB4BF11009D7FAC /* AfternoonSectionHeader.swift */,
+				40107DDF2CB4BF53009D7FAC /* EveningSectionHeader.swift */,
+				40107DD92CB4BEDC009D7FAC /* SectionHeader.swift */,
+			);
+			path = SectionHeaders;
+			sourceTree = "<group>";
+		};
+		40107DE12CB4C48D009D7FAC /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				404637252C8C0456008B9B8D /* ContentView.swift */,
+				40107DE22CB4C49D009D7FAC /* DailyHabitsView.swift */,
+				40107DE42CB4C4A3009D7FAC /* MonthlyHabitsView.swift */,
+				40107DE62CB4C4A6009D7FAC /* YearlyHabitsView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
 		404637172C8C0456008B9B8D = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +103,12 @@
 		404637222C8C0456008B9B8D /* Habits */ = {
 			isa = PBXGroup;
 			children = (
+				409A8EE32CB4B52A00F80554 /* ViewModels */,
+				409A8EE12CB4B4F800F80554 /* Utilities */,
+				406211DA2C928BF700C61CE6 /* Resources */,
+				406211D92C9288BC00C61CE6 /* Views */,
+				406211D62C92884E00C61CE6 /* Models */,
 				404637232C8C0456008B9B8D /* HabitsApp.swift */,
-				404637252C8C0456008B9B8D /* ContentView.swift */,
 				404637272C8C0457008B9B8D /* Assets.xcassets */,
 				404637292C8C0457008B9B8D /* Preview Content */,
 			);
@@ -65,6 +121,59 @@
 				4046372A2C8C0457008B9B8D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		406211D62C92884E00C61CE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				406211D72C92886900C61CE6 /* Habit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		406211D92C9288BC00C61CE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40107DE12CB4C48D009D7FAC /* ContentView */,
+				409A8EE62CB4B7FD00F80554 /* HabitListItem */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		406211DA2C928BF700C61CE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				406211DB2C928C7700C61CE6 /* habitData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		409A8EE12CB4B4F800F80554 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				409A8EE42CB4B66800F80554 /* PersistenceManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		409A8EE32CB4B52A00F80554 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				409A8EDE2CB4B3F200F80554 /* HabitViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		409A8EE62CB4B7FD00F80554 /* HabitListItem */ = {
+			isa = PBXGroup;
+			children = (
+				40107DD82CB4BED3009D7FAC /* SectionHeaders */,
+				409A8EEC2CB4B86300F80554 /* AlarmSheet.swift */,
+				409A8EEA2CB4B84B00F80554 /* AlarmButton.swift */,
+				409A8EE82CB4B82E00F80554 /* CompletionToggleButton.swift */,
+				4006FCE72C929D26009924E6 /* HabitListItem.swift */,
+			);
+			path = HabitListItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4046372B2C8C0457008B9B8D /* Preview Assets.xcassets in Resources */,
+				406211DC2C928C7700C61CE6 /* habitData.json in Resources */,
 				404637282C8C0457008B9B8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +247,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406211D82C92886900C61CE6 /* Habit.swift in Sources */,
+				409A8EE52CB4B66A00F80554 /* PersistenceManager.swift in Sources */,
+				40107DDA2CB4BEDE009D7FAC /* SectionHeader.swift in Sources */,
+				409A8EED2CB4B86500F80554 /* AlarmSheet.swift in Sources */,
+				4006FCE82C929D26009924E6 /* HabitListItem.swift in Sources */,
+				40107DDE2CB4BF11009D7FAC /* AfternoonSectionHeader.swift in Sources */,
+				40107DDC2CB4BEF5009D7FAC /* MorningSectionHeader.swift in Sources */,
+				40107DE52CB4C4A3009D7FAC /* MonthlyHabitsView.swift in Sources */,
+				40107DE72CB4C4A6009D7FAC /* YearlyHabitsView.swift in Sources */,
 				404637262C8C0456008B9B8D /* ContentView.swift in Sources */,
+				40107DE02CB4BF53009D7FAC /* EveningSectionHeader.swift in Sources */,
+				409A8EE92CB4B83200F80554 /* CompletionToggleButton.swift in Sources */,
+				40107DE32CB4C49D009D7FAC /* DailyHabitsView.swift in Sources */,
+				409A8EEB2CB4B84D00F80554 /* AlarmButton.swift in Sources */,
+				409A8EE02CB4B3F800F80554 /* HabitViewModel.swift in Sources */,
 				404637242C8C0456008B9B8D /* HabitsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
